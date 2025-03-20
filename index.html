@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABUADA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Tabudada de três numeros</h1>
+
+    <form onsubmit="ExecutaTabuada(event)">
+        <label for="numero1">Primeiro numero</label>
+        <input id="numero1" type="text" placeholder="Digite aqui..." required>
+
+        <br><br>
+
+        <label for="numero2">Segundo numero</label>
+        <input id="numero2" type="text" placeholder="Digite aqui..." required>
+
+        <br><br>
+        
+        <label for="numero3">Terceiro numero</label>
+        <input id="numero3" type="text" placeholder="Digite aqui..." required>
+        
+        <br><br>
+
+        <input type="submit" placeholder="Enviar">
+    </form>
+
+    <br><br>
+
+    <div id="DigitaTabuada1"> </div>
+    <div id="DigitaTabuada2"> </div>
+    <div id="DigitaTabuada3"> </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
